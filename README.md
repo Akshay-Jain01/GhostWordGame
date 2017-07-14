@@ -18,7 +18,8 @@ attempt to bluff player 2 by adding a letter that doesn't move the fragment towa
 
 #Screens
 
-![Alt text](https://lh4.googleusercontent.com/-WaELE3qq66ZwPSX5Jo-tU6GoMfNSdhXBQxw-YjVV9c0Y4Q0xq4GhZllyCh2_kY8CosE54XE=w1366-h638 "Optional title2")
+<img src="./GhostWordGame.png"></img>
+
 
 #Modes
 Mode 1 - Uses SimpleDictionary Class <br />
