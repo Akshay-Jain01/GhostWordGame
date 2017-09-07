@@ -5,7 +5,7 @@ Ghost is a word game in which players take turns adding individual letters to a 
 Each fragment must be the beginning of an actual word, and, for our purposes, we will consider 4 to be the minimum word length. 
 The player who completes a word or creates a fragment that is not the prefix of a word loses the round.
 
-#Rules of Game
+## Rules of Game
 
 So on player 1's turn, they can:
 
@@ -16,24 +16,24 @@ Then, player 2 must provide a valid word starting with the current fragment or l
 add a letter to move the fragment towards a valid word. 
 attempt to bluff player 2 by adding a letter that doesn't move the fragment towards a valid word.
 
-#Screens
+## Screens
 
 <img src="./GhostWordGame.png"></img>
 
 
-#Modes
+## Modes
 Mode 1 - Uses SimpleDictionary Class <br />
 Mode 2 - Uses FastDictionary Class [Improved version of game which uses trie data structure to store our dictionary] </br >
 Just to test both modes of game, change "GhostDictionary dictionary = new FastDictionary(inputStream);" OR "GhostDictionary dictionary = new SimpleDictionary(inputStream);" in onCreate() method of GhostActivity.java <br />
 GhostDictionary is an interface, not a class. This is the shared interface for SimpleDictionary and FastDictionary. This shared interface makes it easy to swap between the two kinds of dictionaries in the activity.
 
-#Data Structures 
+## Data Structures 
 
 Binary search <br />
 ArrayList <br />
 Trie 
 
-#License
+## License
 
 Copyright 2016 Akshay Jain
 
